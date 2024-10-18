@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+
+#navbar ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+#navbar ul li {
+    margin: 0 15px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+    color: #ffd700; 
+}
+
+.nav-scrolled {
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+
+.section {
+    padding: 130px 0;
+    text-align: center;
+}
+
+.section:nth-child(even) {
+    
+    background-color: #f7f7f7;
+}
+
+#home{ 
+    
+    background-image: url(p2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+h1{
+    
+    color: #000;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 3px #000000;
+    margin-top: 130px;
+
+}
+#home p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: green;
+}
+
+
+#about{
+   background-color: #a4bb99;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+#about h2{
+  padding: 30px 0px;
+}
+#about p{
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: 20px;
+    
+}
+.about1{
+    height: 250px;
+    border-radius: 20px;
+    background-color:white;
+    
+
+
+    
+}
+#services{
+    
+    height: 850px;
+    background-color: rgb(122, 127, 131);
+    
+}
+.contain{
+    padding: 25px 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    grid-gap: 20px;
+    
+}
+.service{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+    
+}
+
+.cont {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-left: 380px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    float: right;
+}
+
+button:hover {
+    background-color: #45a049;
+}
